@@ -28,7 +28,6 @@ function getPokemon(e){
      `
  })
  .catch(err=>console.log(err,'Pokemon not found'));
-
- e.preventDefault()
+e.preventDefault()
 }
 getPokemon()
